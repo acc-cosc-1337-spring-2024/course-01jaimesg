@@ -1,3 +1,5 @@
-def add_numbers(val1, val2):
-     '''Type the correct code to add two numbers after the return statement.'''
+def add_numbers(val1, val2): #definding the function with 2 peramiters
+#comment
+     '''one line
+     '''
      return val1 + val2

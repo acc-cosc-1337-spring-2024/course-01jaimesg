@@ -7,3 +7,6 @@ class Test_Config(unittest.TestCase):
     def test_configuration(self):
         self.assertEqual(True, test_config())
 
+    def test_add_numbers(self):
+        self.assertEqual(add_values(3, 4), 7)
+

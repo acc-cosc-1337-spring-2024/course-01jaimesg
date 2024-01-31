@@ -29,4 +29,17 @@ def operator_precedence_1(val1, val2, val3):
      result = val1 + val2 / val3
      return result 
 
+def operator_precedence_1(val1, val2, val3):
+     result = (val1 + val2) / val3
+     return result 
+
+
+def power_function(val1, exponent):
+     result= val1 ** exponent
+     return result
+
+def get_remainder(val1, val2):
+     result = val1 % val2
+     return result
+
 
